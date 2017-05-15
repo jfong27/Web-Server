@@ -349,16 +349,11 @@ char *cgi(char *file, int req){
    char *response;
    char *temp;
    
-   printf("file %s\n", file);
-
    while((file)[0] != 'c'){
       file++;
    }
    temp = strtok(NULL, "? ");
    command[0] = add_dot_slash(temp);
-
-
-   printf("cmd0 %s\n", command[0]);
 
    while(command[i] != NULL){
       command[++i] =  strtok(NULL, "&");

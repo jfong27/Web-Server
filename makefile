@@ -1,4 +1,4 @@
-CFLAGS = -ansi -Wall -pedantic -g -std=gnu99
+CFLAGS = -Wall -pedantic -g -std=gnu99
 MAIN = httpd
 
 all : $(MAIN)
