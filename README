@@ -1,0 +1,1 @@
+Simple web server that supports HTTP HEAD and GET requests. Also supports executing programs within cgi-like directory and returning output.
